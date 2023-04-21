@@ -8,13 +8,13 @@ public class Exercicio6 {
         
         // Entrada
         System.out.println("Pontos do lider:");
-        int pontosLider = scan.nextInt();
+        float pontosLider = scan.nextInt();
         
         System.out.println("Pontos do lanterna:");
-        int pontosLanterna = scan.nextInt();
+        float pontosLanterna = scan.nextInt();
         
         // Processamento
-        int numJogos = (pontosLider-pontosLanterna) / 3;
+        int numJogos = (int) Math.ceil((pontosLider-pontosLanterna) / 3);
         
         // saida
         System.out.println("\n\nNumero de jogos serao:"+numJogos);
