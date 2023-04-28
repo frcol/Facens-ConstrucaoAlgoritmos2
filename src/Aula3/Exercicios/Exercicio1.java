@@ -1,24 +1,17 @@
 package Aula3.Exercicios;
 
-import java.util.Scanner;
-
 public class Exercicio1 {
     public static void main(String[] args) {
-       Scanner scan = new Scanner(System.in);
+        int a = 4;
+        int b = 10;
+        int temp;
         
-        // Entrada
-        System.out.println("Digite um numero:");
-        int num = scan.nextInt();
+        System.out.println("a = "+a+", b = "+b);
         
-        // Processamento
-        int resto = num % 2;
+        temp = a;
+        a = b;
+        b = temp;
         
-        // Saida
-        if (resto == 0) {
-            System.out.println("PAR");
-        }
-        else {
-            System.out.println("IMPAR");
-        }
+        System.out.println("a = "+a+", b = "+b);
     }
 }
