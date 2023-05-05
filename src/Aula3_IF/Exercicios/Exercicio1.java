@@ -1,4 +1,4 @@
-package Aula3.Exercicios;
+package Aula3_IF.Exercicios;
 
 public class Exercicio1 {
     public static void main(String[] args) {

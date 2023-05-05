@@ -1,4 +1,4 @@
-package Aula3;
+package Aula3_IF;
 
 public class Exemplo2 {
     public static void main(String[] args) {

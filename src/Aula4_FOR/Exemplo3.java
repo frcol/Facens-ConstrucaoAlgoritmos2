@@ -1,4 +1,4 @@
-package Aula4;
+package Aula4_FOR;
 
 public class Exemplo3 {
     public static void main(String[] args) {
