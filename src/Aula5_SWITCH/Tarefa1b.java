@@ -8,7 +8,7 @@ public class Tarefa1b {
         int num1;
         int num2;
         int opt;
-        
+              
         System.out.println("Digite um numero: ");
         num1 = scan.nextInt();
         System.out.println("Digite outro numero: ");
